@@ -6,18 +6,19 @@ import Alert from '@/components/alert'
 Vue.use(Router)
 
 export default new Router({
+  mode:'history',
   routes: [
     {
       path: '/',
       name: 'Hello',
       component: Hello,
-      meta: { goback: true }
+      meta: { isfade: true }//transition
     },
     {
       path: '/alert',
       name: 'Alert',
       component: Alert,
-      meta: { goback: true }
+      meta: { isfade: true }
     }
   ]
 })
