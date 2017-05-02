@@ -13,7 +13,8 @@ export default {
 </script>
 
 <style>
-/*@import "./assets/css/animate.min.css";*/
+@import "~animate.css";
+@import '~mint-ui/lib/style.css';
 @import "./assets/css/common.css";
 body,html{
   padding:0;
